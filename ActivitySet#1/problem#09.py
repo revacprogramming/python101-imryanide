@@ -1,6 +1,6 @@
 # Lists
 
-filename = "romeo.txt"
+filename = "../dataset/romeo.txt"
 
 def get_words(filename):
     l=[]
