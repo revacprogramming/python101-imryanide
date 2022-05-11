@@ -2,7 +2,7 @@
 
 
 def computepay(h, r):
-    pass  # ...
+    return (r*h if h<40 else ((h-40)*(r*1.5)+(40*r)))
 
 
 hrs = float(input("Enter hours? "))
