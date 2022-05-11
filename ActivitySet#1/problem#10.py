@@ -15,4 +15,4 @@ def get_c(filename):
             c += 1
     return c
 
-print(f"There were", {get_c(filename)}, "lines in the file with From as the first word")
+print(f"There were {get_c(filename)} lines in the file with From as the first word")
