@@ -1,7 +1,5 @@
 # Tuples
 
-from posixpath import split
-
 
 filename = "../dataset/mbox-short.txt"
 
