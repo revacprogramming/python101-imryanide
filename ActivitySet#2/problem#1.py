@@ -1,12 +1,12 @@
 
 
 def add(a, b):
-    return  # ...
+    return a + b
 
 
 def main():
-    a = input  # ...
-    b = input  # ...
+    a = input("Input A : ")
+    b = input("Input B : ")
 
     c = add(a, b)
-    print  # ...
+    print(c)

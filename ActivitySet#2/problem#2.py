@@ -1,10 +1,16 @@
 
 def add(a, b):
-    pass  # ...
+    return a + b
 
 
 def output(a, b, sum):
-    pass  # ...
+    print(f"The sum of {a} and {b} is {sum}")
+
+
+def input_two_numbers():
+    a = input("Enter A")
+    b = input("Enter B")
+    return a, b
 
 
 def main():
