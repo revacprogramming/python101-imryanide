@@ -7,9 +7,9 @@ def get_cs():
 
 def cs_to_lot(cs):
     l = cs.split(';')
-    for i in range(len(c)):
-        l[i] = tuple()
-
+    for i in range(len(l)):
+        l[i] = (tuple(l[i].split("=")))
+    return l
 
 def main():
     cs = get_cs()
