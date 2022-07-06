@@ -1,11 +1,14 @@
 
 
 def get_cs():
-    """get string input"""
+    s = str(input("enter a string: "))
+    return s
 
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
+    l = cs.split(';')
+    for i in range(len(c)):
+        l[i] = tuple()
 
 
 def main():

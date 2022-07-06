@@ -1,2 +1,1 @@
-# Databases
-# https://www.py4e.com/lessons/database
+print("shreyas is hot")
