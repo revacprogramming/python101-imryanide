@@ -13,3 +13,7 @@ class fraction:
         gcd = self.get_gcd()
         self.num = self.num // gcd
         self.den = self.den // gcd
+
+
+def main():
+    eglist = []
