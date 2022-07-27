@@ -1,3 +1,6 @@
+from copyreg import dispatch_table
+
+
 class Menu:
     def __init__(self):
         self.items = []

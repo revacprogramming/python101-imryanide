@@ -11,12 +11,11 @@ def cs_to_dict(cs):
 
 
 def dict_to_cs(d):
-    l = [
-        (
-            k,
-            "=",
-            v,
-        )
+    l = [(
+        k,
+        "=",
+        v,
+    )
         for k, v in d.items()
     ]
     st = ""
